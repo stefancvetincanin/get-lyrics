@@ -19,7 +19,7 @@ h2 {
 }
 
 .section1 {
-    background-image: linear-gradient(to right, rgb(0, 255, 191), white);
+    background-image: linear-gradient(to right, rgb(111, 227, 231), white);
     padding: 15px 0;
     border-top: 1px solid white;
 }
