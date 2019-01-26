@@ -40,7 +40,7 @@ $(document).ready(function () {
         alert("Currently my only online presence is at github :)");
     })
 
-    // zaustavljanje refresha stranice pri submit-u
+    // zaustavljanje refresha stranice pri submit-u forme
     // ugradjena metoda preventDefault()
 
 })
