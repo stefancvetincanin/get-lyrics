@@ -1,2 +1,3 @@
 # get-lyrics
-Searches for lyrics by artist and song name
+Search for lyrics by artist and song.
+Page link: https://stefancvetincanin.github.io/get-lyrics/
