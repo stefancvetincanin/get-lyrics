@@ -37,7 +37,7 @@ $(document).ready(function () {
     })
 
     $(".social a:first").siblings().on("click", function() {
-        alert("Unfortunately my only online presence at the moment is github :)");
+        alert("Currently my only online presence is at github :)");
     })
 
     // zaustavljanje refresha stranice pri submit-u
