@@ -1,8 +1,8 @@
 // Public APIs na githubu - izvor za vezbe
 // // Redosled pisanja koda:
-// 1. varijable
-// 2. funkcije
-// 3. dogadjaji
+    // 1. varijable
+    // 2. funkcije
+    // 3. dogadjaji
 
 // javascript alias - skracenje koda
 const s = selektor => document.getElementById(selektor)
