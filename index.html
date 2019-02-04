@@ -30,15 +30,24 @@
     <main>
         <section class="section1">
             <div class="container">
-                <label for="muzicar">Artist: </label> <input type="text" id="muzicar"><br>
-                <label for="pesma">Song: </label> <input type="text" id="pesma"><br>
+                <label for="muzicar">Artist: </label><br> <input type="text" id="muzicar"><img class="loader" id="wiki-loader" src="media/images/preloader.gif" alt="Loader"><br>
+                <label for="pesma">Song: </label><br> <input type="text" id="pesma"><img class="loader" id="text-loader" src="media/images/preloader.gif" alt="Loader"><br>
                 <button>Search</button>
             </div>
         </section>
         <div class="container">
-            <h2 id="artist"></h2>
-            <h3 id="song"></h3>
-            <p id="lyrics"></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 id="artist"></h2>
+                    <h3 id="song"></h3>
+                    <p id="lyrics"></p>
+                </div>
+                <div class="col-md-6">
+                    <div id="img">
+                    </div>
+                    <div id="wiki"></div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -52,7 +61,7 @@
                 <a href=""><img src="media/images/icons8-twitter-circled-filled-50.png"></a>
                 <a href=""><img src="media/images/icons8-linkedin-circled-filled-50.png"></a>
             </section>
-            <!-- <small>Copyright&copy; by Stefan Cvetincanin - <a href="https://github.com/stefancvetincanin" target="_blank">github</a></small> -->
+            <!-- <small>Copyright&copy; by Tincha</small> -->
         </div>
     </footer>
 

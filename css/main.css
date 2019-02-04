@@ -1,5 +1,6 @@
 input {
     padding-left: 5px;
+    width: 250px;
 }
 
 header {
@@ -12,6 +13,10 @@ h1 {
     padding-bottom: 5px;
     margin-bottom: 0px;
     line-height: 60px;
+}
+
+label {
+    margin: 0;
 }
 
 h2 {
@@ -48,4 +53,27 @@ main {
 
 .social {
     padding: 5px 0;
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+
+#img {
+    float: right;
+}
+
+.mw-empty-elt {
+    display:none;
+}
+
+.loader {
+    width: 50px;
+    display: none;
+    position: relative;
+    top: -5px;
+}
+
+button {
+    margin-top: 5px;
 }
