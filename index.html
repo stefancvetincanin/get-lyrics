@@ -17,22 +17,23 @@
     <!-- Our sources -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
-
 <body>
     <header>
         <div class="container">
             <h1>Tincha's Lyrics Engine</h1>
-
         </div>
     </header>
-
 
     <main>
         <section class="section1">
             <div class="container">
-                <label for="muzicar">Artist: </label><br> <input required type="text" id="muzicar"><img class="loader" id="wiki-loader" src="media/images/preloader.gif" alt="Loader"><br>
-                <label for="pesma">Song: </label><br> <input required type="text" id="pesma"><img class="loader" id="text-loader" src="media/images/preloader.gif" alt="Loader"><br>
-                <button>Search</button>
+                <form id="search-form">
+                    <label for="muzicar">Artist: </label><br> <input type="text" id="muzicar"><img class="loader"
+                        id="wiki-loader" src="media/images/loader.gif" alt="Loader"><br>
+                    <label for="pesma">Song: </label><br> <input type="text" id="pesma"><img class="loader"
+                        id="text-loader" src="media/images/loader.gif" alt="Loader"><br>
+                    <input type="submit" value="Search" id="s-button">
+                </form>
             </div>
         </section>
         <div class="container">
@@ -52,10 +53,10 @@
     </main>
 
     <footer>
-
         <div class="container">
             <section class="social">
-                <a href="https://github.com/stefancvetincanin?tab=repositories"><img src="media/images/icons8-github-filled-50.png"></a>
+                <a href="https://github.com/stefancvetincanin?tab=repositories"><img
+                        src="media/images/icons8-github-filled-50.png"></a>
                 <a href=""><img src="media/images/icons8-facebook-circled-filled-50 (1).png"></a>
                 <a href=""><img src="media/images/icons8-instagram-filled-50.png"></a>
                 <a href=""><img src="media/images/icons8-twitter-circled-filled-50.png"></a>
